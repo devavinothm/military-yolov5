@@ -8,7 +8,10 @@ The YOLOv5 model is a state-of-the-art object detection model that is fast and a
 
 ## Output Video
 
-[![Output Video](https://github.com/devavinothm/military-yolov5/)](https://github.com/devavinothm/military-yolov5/blob/main/output.mp4)
+
+https://github.com/devavinothm/military-yolov5/assets/108424464/fa23a074-51cd-4ed4-8ceb-e8d840b5ca91
+
+
 
 ## Files Included
 
@@ -33,9 +36,10 @@ conda activate defencecv
 ```
 
 3. Install the required libraries:
-   ```sh
-   pip install -r requirements.txt
-   ```
+   
+```sh
+pip install -r requirements.txt
+```
 
 
 ### Step 2: Write a Detailed Report
@@ -64,6 +68,7 @@ Organize your project directory as follows:
 - **LinkedIn**: [Deva Vinoth](https://www.linkedin.com/in/devavinoth/)
 - **Portfolio**: [Deva Vinoth](https://deva-vinoth.web.app/)
 - **Email**: [learnerdev101@gmail.com]
+
 
 ## Connect with Me
 
