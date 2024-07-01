@@ -1,47 +1,72 @@
-# Military Object Detection using YOLO(You Only Look Once) Version 5
+# Military Object Detection Project
 
-## Introduction
+## Overview
 
-This project is a part of my interview process. The task is to detect military objects using YOLOv5. Here I used YOLOv5s pre-trained model and trained it on a custom dataset. The dataset contains 3 classes of military objects. The classes are as follows:
+This project detects various objects in a military video clips, including army personnel, weapons, aircraft, shoes, and tanks using the YOLOv5 object detection model.
 
-1. Soldier
-2. Tanker
-3. Air Craft
+The YOLOv5 model is a state-of-the-art object detection model that is fast and accurate. It can detect objects in real-time and is widely used in various applications, including surveillance, autonomous driving, and robotics.
 
-## Process
+## Output Video
 
-1. Data Collection
+[![Output Video](https://github.com/devavinothm/military-yolov5/blob/main/output.mp4)]
 
-I collected the images of the military objects from the internet. I used the Bing Image Search API to collect the images. I collected around 100 images for each class.
+## Files Included
 
-2. Data Annotation
+- `app.py`: The main Python script for object detection.
+- `input.mp4`: The input video file.
+- `output.mp4`: The output video file with detected objects.
+- `report.pdf`: A detailed report of the project.
+- `screenshots/`: A folder containing screenshots of the detection results.
 
-I annotated the images using the LabelImg tool. The LabelImg tool is an open-source tool that is used to annotate the images. I annotated the images in the Pascal VOC format.
+## Setup Instructions
 
-3. Data Preprocessing
+1. Create an Conda Environment:
 
-I converted the Pascal VOC format to YOLO format using a python script. The YOLO format is a text file that contains the class label and the bounding box coordinates.
+'''sh
+conda create -n defencecv python=3.8
+'''
 
-4. Training
+2. Activate Conda Environment
 
-I used the YOLOv5s pre-trained model to train the custom dataset. I trained the model for 100 epochs. The training took around 2 hours on a GPU.
+```sh
+conda activate defencecv
 
-5. Evaluation
+3. Install the required libraries:
+   ```sh
+   pip install -r requirements.txt
+   ```
 
-I evaluated the model on the test dataset. The model achieved an accuracy of 90%.
 
-## Results
+### Step 2: Write a Detailed Report
 
-The model was able to detect the military objects with high accuracy. The model was able to detect the soldier, tanker, and air craft with an accuracy of 90%.
+Create a `report.pdf` with the following sections:
 
-## Conclusion
+1. **Introduction**: Briefly describe the project and its objectives.
+2. **Methodology**: Explain the YOLOv5 model and how it was used.
+3. **Implementation**: Describe the steps to implement the object detection.
+4. **Results**: Include the results and analysis.
+5. **Conclusion**: Summarize the project and future work.
 
-The YOLOv5 model is a powerful object detection model that can be used to detect military objects. The model can be trained on a custom dataset to detect any object of interest.
+### Step 3: Capture Screenshots
 
-## Connect with me
+Take screenshots of the detection results and save them in a folder named `screenshots`. Include these in your report and presentation.
+
+### Step 4: Organize the Files
+
+Organize your project directory as follows:
+
+
+## About the Author
+
+- **Name**: [Deva Vinoth]
+- **GitHub**: [devavinothm](https://github.com/devavinothm/)
+- **LinkedIn**: [Deva Vinoth](https://www.linkedin.com/in/devavinoth/)
+- **Portfolio**: [Deva Vinoth](https://deva-vinoth.web.app/)
+- **Email**: [learnerdev101@gmail.com]
+
+## Connect with Me
 
 - [LinkedIn](https://www.linkedin.com/in/devavinoth/)
 - [GitHub](https://github.com/devavinothm/)
 
-## Have a great day!
-```
+## Have a Great Day!
