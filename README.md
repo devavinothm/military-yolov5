@@ -8,7 +8,7 @@ The YOLOv5 model is a state-of-the-art object detection model that is fast and a
 
 ## Output Video
 
-[![Output Video](https://github.com/devavinothm/military-yolov5/blob/main/output.mp4)]
+[![Output Video](https://github.com/devavinothm/military-yolov5/)](https://github.com/devavinothm/military-yolov5/blob/main/output.mp4)
 
 ## Files Included
 
@@ -22,14 +22,15 @@ The YOLOv5 model is a state-of-the-art object detection model that is fast and a
 
 1. Create an Conda Environment:
 
-'''sh
+```sh
 conda create -n defencecv python=3.8
-'''
+```
 
 2. Activate Conda Environment
 
 ```sh
 conda activate defencecv
+```
 
 3. Install the required libraries:
    ```sh
