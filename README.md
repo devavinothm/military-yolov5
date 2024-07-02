@@ -8,13 +8,11 @@ The YOLOv5 model is a state-of-the-art object detection model that is fast and a
 
 ## Output Video
 
-
-
-
 https://github.com/devavinothm/military-yolov5/assets/108424464/95a8265e-a0b8-4cf2-a209-35914038b591
+(here the video is more than 50MB and maybe unable to view directly. In that case please use the below youtube video link)
 
 
-Video Link: https://github.com/devavinothm/military-yolov5/blob/main/output.mp4
+Video Link: https://www.youtube.com/watch?v=j2P9RZeKI3k
 
 
 
